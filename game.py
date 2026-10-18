@@ -1,7 +1,6 @@
 from nicegui import ui
 import game_state
 import concept_net as cn
-import similarity
 
 def toast(message, duration=2000):
     ui.notify("<span style='font-size:40px'>"+message+"</span>", html=True, position='center', timeout=duration, 
