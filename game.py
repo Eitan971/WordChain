@@ -126,9 +126,8 @@ def debugPanel():
     if game_state.debugMode:
         ui.html(game_state.debugLog)
 
-# Init ConceptNet and similarity model
+# Init ConceptNet
 cn.init()
-similarity.init()
 
 
 with ui.left_drawer(top_corner=True, bottom_corner=True).props('bordered width=200').style('background-color: #FFFFFF'):
