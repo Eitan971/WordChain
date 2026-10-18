@@ -5,7 +5,6 @@ import jev
 import game_state as gs
 import conceptnet_lite
 from collections import defaultdict
-import similarity
 from dotenv import load_dotenv
 from openai import OpenAI
 
