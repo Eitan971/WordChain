@@ -1,3 +1,4 @@
 .env
 __pycache__/
 recraftimages/*data/conceptnet.db
+data/conceptnet.db
